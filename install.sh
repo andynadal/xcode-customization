@@ -1,10 +1,17 @@
 echo "1. Installing code snippets"
 
-cp ./snippets/* ~/Library/Developer/Xcode/UserData/CodeSnippets/
-
-echo "2. Done!, now installing file templates"
+if cp ./snippets/* ~/Library/Developer/Xcode/UserData/CodeSnippets/ ; then
+    echo "     Successfuly installed code snippets"
+else
+    echo "     Failed to install code snippets"
+fi
 
 ## Interface templates
-cp -r ./templates/interface/* /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File\ Templates/User\ Interface/
 
-echo "3. Everything is done!"
+echo "2. Installing file templates"
+
+if cp -r ./templates/interface/* /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File\ Templates/User\ Interface/ ; then
+    echo "     Successfully installed templates"
+else
+    echo "     Failed to install templates"
+fi

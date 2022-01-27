@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>anyviewblock</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    lazy var &lt;#view#&gt;: &lt;#class#&gt; = {
+        let &lt;#view#&gt; = &lt;#class#&gt;()
+        &lt;#view#&gt;.translatesAutoresizingMaskIntoConstraints = false
+        return &lt;#view#&gt;
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2B2612A8-A7EC-49E6-B096-7F88D1DC9272</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Show a block for any type of view.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Any View Block</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

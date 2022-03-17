@@ -9,6 +9,9 @@
 import UIKit
 
 final class ___VARIABLE_productName:identifier___ViewController: UIViewController {
+
+    var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?
+
     private(set) var customView = ___VARIABLE_productName:identifier___View()
 
     override func loadView() {

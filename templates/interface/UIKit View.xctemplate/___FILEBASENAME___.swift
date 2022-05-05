@@ -1,7 +1,5 @@
 //___FILEHEADER___
 //
-// Template by Andy Nadal
-// Github: @andynadal
 
 import UIKit
 

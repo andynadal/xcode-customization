@@ -19,3 +19,14 @@ if cp -r ./templates/interface/* /Applications/Xcode.app/Contents/Developer/Libr
 else
     echo "     Failed to install templates"
 fi
+
+## Xcode themes
+
+echo "3. Installing Xcode themes"
+
+mkdir ~/Library/Developer/Xcode/UserData/FontAndColorThemes
+if cp -r ./themes/* ~/Library/Developer/Xcode/UserData/FontAndColorThemes; then
+    echo "     Successfully installed themes"
+else
+    echo "     Failed to install themes"
+fi

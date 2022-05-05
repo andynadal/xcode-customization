@@ -8,23 +8,24 @@
 
 import Foundation
 
-//MARK: Router -
+// MARK: Router -
 protocol ___VARIABLE_productName:identifier___RouterProtocol: AnyObject {
 
 }
-//MARK: Presenter -
+
+// MARK: Presenter -
 protocol ___VARIABLE_productName:identifier___PresenterProtocol: AnyObject {
 
 }
 
-//MARK: Interactor -
+// MARK: Interactor -
 protocol ___VARIABLE_productName:identifier___InteractorProtocol: AnyObject {
 
-    var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?  { get set }
+    var presenter: ___VARIABLE_productName:identifier___PresenterProtocol? { get set }
 }
 
-//MARK: View -
+// MARK: View -
 protocol ___VARIABLE_productName:identifier___ViewProtocol: AnyObject {
 
-    var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?  { get set }
+    var presenter: ___VARIABLE_productName:identifier___PresenterProtocol? { get set }
 }

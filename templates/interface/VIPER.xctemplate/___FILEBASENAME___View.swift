@@ -22,4 +22,3 @@ final class ___VARIABLE_productName:identifier___View: UIView {
         
     }
 }
-

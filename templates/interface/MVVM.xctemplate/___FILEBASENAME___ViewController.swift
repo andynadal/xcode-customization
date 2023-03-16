@@ -8,11 +8,9 @@
 
 import UIKit
 
-final class ___VARIABLE_productName:identifier___ViewController: UIViewController, ___VARIABLE_productName:identifier___ViewProtocol {
-
-    var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?
-
+final class ___VARIABLE_productName:identifier___ViewController: UIViewController {
     private(set) var customView = ___VARIABLE_productName:identifier___View()
+    var viewModel: ___VARIABLE_productName:identifier___ViewModel!
 
     override func loadView() {
         view = customView

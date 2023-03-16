@@ -16,6 +16,7 @@ final class ___VARIABLE_productName:identifier___UseCase {
     func exampleService() async throws -> [Bool] {
         do {
             // return try await repository.fetchAllCountries().data
+            return []
         } catch {
             // throw UI handled error
         }

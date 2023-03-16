@@ -29,7 +29,7 @@ final class ___VARIABLE_productName:identifier___ViewModel: ObservableObject {
         viewModel.view = view
         view.viewModel = viewModel
         
-        AppDelegate.navigationController.pushViewController(view, animated: true)
+        // AppDelegate.navigationController.pushViewController(view, animated: true)
     }
    
     private init() {}

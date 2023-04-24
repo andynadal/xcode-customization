@@ -8,11 +8,9 @@
 
 import Foundation
 
-final class ___VARIABLE_productName:identifier___UseCase {
-    weak var viewModel: ___VARIABLE_productName:identifier___ViewModel?
-    
+enum ___VARIABLE_productName:identifier___UseCase {
     @MainActor
-    func exampleService() async throws -> [Bool] {
+    static func exampleService() async throws -> [Bool] {
         do {
             // return try await repository.fetchAllCountries().data
             return []

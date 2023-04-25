@@ -6,7 +6,7 @@
 //  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 enum ___VARIABLE_productName:identifier___Router {
     static func startModule(using navigationController: UINavigationController?) {

@@ -12,7 +12,7 @@ import Foundation
 /// handlers for the local database. One module can have multiple Model handlers.
 
 enum ___VARIABLE_productName:identifier___Repository {
-    func sampleService() async throws -> Bool {
+    static func sampleService() async throws -> Bool {
         // Call a service
         return true
     }
